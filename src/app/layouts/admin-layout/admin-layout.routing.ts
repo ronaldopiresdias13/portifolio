@@ -14,8 +14,8 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'habilidades',    component: UserComponent },
     { path: 'experiencias',          component: TableComponent },
     { path: 'educacao',     component: TypographyComponent },
-    // { path: 'projetos',          component: IconsComponent },
     { path: 'premios',           component: MapsComponent },
     { path: 'contato',  component: NotificationsComponent },
-    { path: 'upgrade',        component: UpgradeComponent }
+    { path: 'upgrade',        component: UpgradeComponent },
+    { path: 'galeria',          component: IconsComponent },
 ];
